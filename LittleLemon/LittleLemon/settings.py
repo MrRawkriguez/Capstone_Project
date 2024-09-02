@@ -73,7 +73,7 @@ ROOT_URLCONF = 'LittleLemon.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['restaurant/templates'],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -97,7 +97,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "LittleLemon",
         'USER': "root",
-        "PASSWORD": "$Hitbird1",
+        "PASSWORD": "root123",
         'HOST': "127.0.0.1",
         "PORT": "3306",
         "OPTIONS": {
